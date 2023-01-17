@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100">
-  <a className="btn btn-ghost normal-case glass text-4xl">🐱 Academy</a>
+    <div className="navbar flex justify-start bg-base-100">
+  <a className="font-semibold px-12 py-4 text-5xl">🐱Academy</a>
 </div>
   )
 }
